@@ -1,0 +1,54 @@
+{
+  "name": "excel",
+  "version": "1.0.0",
+  "description": "Pure JS Excel Application",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=development webpack serve --open",
+    "build": "cross-env NODE_ENV=production webpack --mode production",
+    "lint": "npx eslint ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Halidg/excel-pure-js.git"
+  },
+  "keywords": [
+    "js",
+    "excel",
+    "javascript"
+  ],
+  "author": "\"Halid Gakaev\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Halidg/excel-pure-js/issues"
+  },
+  "homepage": "https://github.com/Halidg/excel-pure-js#readme",
+  "private": true,
+  "browserslist": "> 0.25%, not dead",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^5.2.6",
+    "eslint": "^7.30.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-loader": "^4.0.2",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.1.0",
+    "sass": "^1.35.2",
+    "sass-loader": "^12.1.0",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "-": "0.0.1",
+    "@babel/polyfill": "^7.12.1",
+    "cross-env": "^7.0.3",
+    "normalize.css": "^8.0.1"
+  }
+}
